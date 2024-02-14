@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$1" != "" ]
+then
+    python3 compiler.py $*
+else
+    echo 'Missing file argument.'
+fi
+
